@@ -46,13 +46,13 @@
                     <span class="title--ax">AX</span>
                 </h1>
                 <div class="header__content-images">
-                    <!-- <img src="./images/airpods-black.png" alt=""> -->
-                    <img src="./images/airpods-blue.png" alt="">
-                    <!-- <img src="./images/airpods-green.png" alt="">
-                    <img src="./images/airpods-red.png" alt="">
-                    <img src="./images/airpods-white.png" alt="">
+                    <img class="content-item color--blue content-item__active" src="./images/airpods-blue.png" alt="">
+                    <img class="content-item color--red" src="./images/airpods-red.png" alt="">
+                    <img class="content-item color--green" src="./images/airpods-green.png" alt="">
+                    <img class="content-item color--white" src="./images/airpods-white.png" alt="">
+                    <img class="content-item color--black" src="./images/airpods-black.png" alt="">
                 </div>
-            </div> -->
+            </div>
         </div>
     </header>
     <main class="main">
@@ -66,21 +66,21 @@
                     The ultimate personal audio experience.
                 </p>
                 <div class="choose-color__list">
-                    <button class="choose__color-btn">
+                    <button class="choose__color-btn choose__color-btn--active" data-button="color--blue">
+                        <img src="./images/btn-blue.png" alt="">
+                    </button>
+                    <button class="choose__color-btn" data-button="color--red">
+                        <img src="./images/btn-red.png"  alt="">
+                    </button>
+                    <button class="choose__color-btn" data-button="color--green">
                         <img src="./images/btn-green.png" alt="">
                     </button>
-                    <button class="choose__color-btn">
-                        <img src="./images/btn-white.png" alt="">
+                    <button class="choose__color-btn" data-button="color--white">
+                        <img src="./images/btn-white.png"  alt="">
                     </button>
-                    <button class="choose__color-btn">
-                        <img src="./images/btn-red.png" alt="">
+                    <button class="choose__color-btn" data-button="color--black">
+                        <img src="./images/btn-black.png"  alt="">
                     </button>
-                    <button class="choose__color-btn">
-                        <img src="./images/btn-black.png" alt="">
-                    </button>
-                    <!-- <button class="choose__color-btn">
-                        <img src="./images/btn-blue.png" alt="">
-                    </button>     -->
                 </div>
             </div>
         </section>
@@ -109,11 +109,11 @@
                             and isolation.
                         </p>
                     </div>
-                    <img src="./images/side-blue.jpg" alt="">
-                    <!-- <img src="./images/side-green.jpg" alt="">
-                    <img src="./images/side-white.jpg" alt="">
-                    <img src="./images/side-red.jpg" alt="">
-                    <img src="./images/side-black.jpg" alt=""> -->
+                    <img class="content-item color--blue content-item__active" src="./images/side-blue.jpg" alt="">
+                    <img class="content-item color--red" src="./images/side-red.jpg" alt="">
+                    <img class="content-item color--green" src="./images/side-green.jpg" alt="">
+                    <img class="content-item color--white" src="./images/side-white.jpg" alt="">
+                    <img class="content-item color--black" src="./images/side-black.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -127,11 +127,11 @@
                     state to save
                     energy.
                 </p>
-                <img src="./images/case-blue.jpg" alt="">
-                <!-- <img src="./images/case-green.jpg" alt="">
-                <img src="./images/case-white.jpg" alt="">
-                <img src="./images/case-red.jpg" alt="">
-                <img src="./images/case-black.jpg" alt=""> -->
+                <img class="content-item color--blue content-item__active" src="./images/case-blue.jpg" alt="">
+                <img class="content-item color--red" src="./images/case-red.jpg" alt="">
+                <img class="content-item color--green" src="./images/case-green.jpg" alt="">
+                <img class="content-item color--white" src="./images/case-white.jpg" alt="">
+                <img class="content-item color--black" src="./images/case-black.jpg" alt="">
                 <h2 class="energy__title main__title">Stayin' alive, stayin' alive.</h2>
                 <p class="energy__num">20</p>
                 <p class="energy__text">hours of music, movies and calls with Active Noise Cancellation and Custom
@@ -142,14 +142,17 @@
         <section class="audio">
             <div class="container">
                 <div class="audio__inner">
-                    <div  class="audio__box">
-                        <p class="audio__text">Custom Spatial Audio with dynamic head tracking provides a surround sound experience worthy
+                    <div class="audio__box">
+                        <p class="audio__text">Custom Spatial Audio with dynamic head tracking provides a surround sound
+                            experience worthy
                             of a movie theater.
                         </p>
-                        <p class="audio__text">Through built-in gyroscopes and accelerometers, AirPods Max and your iPhone, iPad, Mac or
+                        <p class="audio__text">Through built-in gyroscopes and accelerometers, AirPods Max and your
+                            iPhone, iPad, Mac or
                             Apple TV detect the slightest head movements and keep the sound steady on your device.
                         </p>
-                        <p class="audio__text">And with Apple Music, custom Spatial Audio with dynamic head tracking creates a unique
+                        <p class="audio__text">And with Apple Music, custom Spatial Audio with dynamic head tracking
+                            creates a unique
                             three-dimensional listening experience.
                         </p>
                         <button class="btn">
